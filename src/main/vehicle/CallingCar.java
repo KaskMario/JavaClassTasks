@@ -23,6 +23,5 @@ public class CallingCar {
         }
         System.out.printf("Your vehicle can drive maximum of %.2f kilometers", car.maxDistance());
 
-
     }
 }

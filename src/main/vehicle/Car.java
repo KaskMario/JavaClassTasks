@@ -26,5 +26,4 @@ public class Car extends Vehicle {
         return distance;
     }
 
-
 }
