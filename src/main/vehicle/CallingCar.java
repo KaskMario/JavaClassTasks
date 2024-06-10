@@ -16,7 +16,6 @@ public class CallingCar {
         int passengers = scanner.nextInt();
         System.out.println("Will you turn on air conditioner? y/n");
         String input = scanner.next();
-
         if(input.toLowerCase().trim().equals("y")) {
             car = new Car(fuelAmount, fuelUsage, passengers, true);
         }else {

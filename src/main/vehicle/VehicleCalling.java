@@ -17,6 +17,5 @@ public class VehicleCalling {
         Vehicle vehicle = new Vehicle(fuelAmount,fuelUsage,passengers);
         System.out.printf("Your vehicle can drive maximum of %.2f kilometers", vehicle.maxDistance());
 
-
     }
 }

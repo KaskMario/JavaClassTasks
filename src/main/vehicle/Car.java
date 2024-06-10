@@ -18,6 +18,7 @@ public class Car extends Vehicle {
 
         if(airConditioner){
             distance = (getFuel() / fuelUsageWithAc) * 100;
+
         }else {
 
             distance = (getFuel() / totalFuelUsage) * 100;

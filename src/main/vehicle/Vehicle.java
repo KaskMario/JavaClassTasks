@@ -38,4 +38,5 @@ public class Vehicle {
     public int getPassengers() {
         return passengers;
     }
+
 }
